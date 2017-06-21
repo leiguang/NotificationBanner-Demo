@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3511FD005EBCC0178BC174 /* Pods_NotificationBanner_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827B91FCFED94E258EBE20A1 /* Pods_NotificationBanner_Demo.framework */; };
 		9A1342B91EF37D9700A88717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342B81EF37D9700A88717 /* AppDelegate.swift */; };
-		9A1342BB1EF37D9700A88717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342BA1EF37D9700A88717 /* ViewController.swift */; };
 		9A1342BE1EF37D9800A88717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1342BC1EF37D9800A88717 /* Main.storyboard */; };
 		9A1342C01EF37D9800A88717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1342BF1EF37D9800A88717 /* Assets.xcassets */; };
 		9A1342C31EF37D9900A88717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1342C11EF37D9900A88717 /* LaunchScreen.storyboard */; };
+		9A1342CF1EF383D500A88717 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342CE1EF383D500A88717 /* ExampleViewController.swift */; };
+		9A1342D11EF383DF00A88717 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342D01EF383DF00A88717 /* ExampleView.swift */; };
+		9A1342DF1EF3D2E500A88717 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342DE1EF3D2E500A88717 /* ExampleModel.swift */; };
+		9A1342E71EF3DCEA00A88717 /* LGNotificationBannerColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342E61EF3DCEA00A88717 /* LGNotificationBannerColors.swift */; };
+		9A1342E91EF3DCFE00A88717 /* LGNotificationBannerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342E81EF3DCFE00A88717 /* LGNotificationBannerStyle.swift */; };
+		9A1342EB1EF77A6800A88717 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1342EA1EF77A6800A88717 /* ExampleTableViewCell.swift */; };
+		9A13430B1EF7C53700A88717 /* LGBaseNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13430A1EF7C53700A88717 /* LGBaseNotificationBanner.swift */; };
+		9A13430D1EF7C9EE00A88717 /* ExampleCustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13430C1EF7C9EE00A88717 /* ExampleCustomColors.swift */; };
+		9A13430F1EF914D700A88717 /* LGNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13430E1EF914D700A88717 /* LGNotificationBanner.swift */; };
+		9A1343111EFA069600A88717 /* LGNotificationBannerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1343101EFA069600A88717 /* LGNotificationBannerQueue.swift */; };
+		9A1343141EFA7B9C00A88717 /* NorthCarolinaBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1343131EFA7B9C00A88717 /* NorthCarolinaBannerView.swift */; };
+		9A1343161EFA7DC800A88717 /* LGStatusBarNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1343151EFA7DC800A88717 /* LGStatusBarNotificationBanner.swift */; };
+		9A1343181EFA806800A88717 /* LGBannerHapticGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1343171EFA806800A88717 /* LGBannerHapticGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E7E9BC295C8199C961365D1 /* Pods-NotificationBanner_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationBanner_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationBanner_Demo/Pods-NotificationBanner_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		827B91FCFED94E258EBE20A1 /* Pods_NotificationBanner_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationBanner_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961A16BDDD3E20817988B21E /* Pods-NotificationBanner_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationBanner_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationBanner_Demo/Pods-NotificationBanner_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		9A1342B51EF37D9700A88717 /* NotificationBanner_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationBanner_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1342B81EF37D9700A88717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A1342BA1EF37D9700A88717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A1342BD1EF37D9800A88717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A1342BF1EF37D9800A88717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1342C21EF37D9900A88717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A1342C41EF37D9900A88717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1342CE1EF383D500A88717 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		9A1342D01EF383DF00A88717 /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		9A1342DE1EF3D2E500A88717 /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		9A1342E61EF3DCEA00A88717 /* LGNotificationBannerColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGNotificationBannerColors.swift; sourceTree = "<group>"; };
+		9A1342E81EF3DCFE00A88717 /* LGNotificationBannerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGNotificationBannerStyle.swift; sourceTree = "<group>"; };
+		9A1342EA1EF77A6800A88717 /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
+		9A13430A1EF7C53700A88717 /* LGBaseNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGBaseNotificationBanner.swift; sourceTree = "<group>"; };
+		9A13430C1EF7C9EE00A88717 /* ExampleCustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCustomColors.swift; sourceTree = "<group>"; };
+		9A13430E1EF914D700A88717 /* LGNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGNotificationBanner.swift; sourceTree = "<group>"; };
+		9A1343101EFA069600A88717 /* LGNotificationBannerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGNotificationBannerQueue.swift; sourceTree = "<group>"; };
+		9A1343131EFA7B9C00A88717 /* NorthCarolinaBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NorthCarolinaBannerView.swift; sourceTree = "<group>"; };
+		9A1343151EFA7DC800A88717 /* LGStatusBarNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGStatusBarNotificationBanner.swift; sourceTree = "<group>"; };
+		9A1343171EFA806800A88717 /* LGBannerHapticGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGBannerHapticGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3511FD005EBCC0178BC174 /* Pods_NotificationBanner_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				9A1342B71EF37D9700A88717 /* NotificationBanner_Demo */,
 				9A1342B61EF37D9700A88717 /* Products */,
+				D2A02302938CC363DF08002D /* Pods */,
+				DAADBFA80F9D372BE0E40D56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +86,50 @@
 			isa = PBXGroup;
 			children = (
 				9A1342B81EF37D9700A88717 /* AppDelegate.swift */,
-				9A1342BA1EF37D9700A88717 /* ViewController.swift */,
+				9A1342CE1EF383D500A88717 /* ExampleViewController.swift */,
+				9A1342D01EF383DF00A88717 /* ExampleView.swift */,
+				9A1342EA1EF77A6800A88717 /* ExampleTableViewCell.swift */,
+				9A1342DE1EF3D2E500A88717 /* ExampleModel.swift */,
+				9A13430C1EF7C9EE00A88717 /* ExampleCustomColors.swift */,
+				9A1343131EFA7B9C00A88717 /* NorthCarolinaBannerView.swift */,
+				9A1343121EFA6D4400A88717 /* LGNotificationBanner */,
 				9A1342BC1EF37D9800A88717 /* Main.storyboard */,
 				9A1342BF1EF37D9800A88717 /* Assets.xcassets */,
 				9A1342C11EF37D9900A88717 /* LaunchScreen.storyboard */,
 				9A1342C41EF37D9900A88717 /* Info.plist */,
 			);
 			path = NotificationBanner_Demo;
+			sourceTree = "<group>";
+		};
+		9A1343121EFA6D4400A88717 /* LGNotificationBanner */ = {
+			isa = PBXGroup;
+			children = (
+				9A1342E61EF3DCEA00A88717 /* LGNotificationBannerColors.swift */,
+				9A1343171EFA806800A88717 /* LGBannerHapticGenerator.swift */,
+				9A1342E81EF3DCFE00A88717 /* LGNotificationBannerStyle.swift */,
+				9A1343101EFA069600A88717 /* LGNotificationBannerQueue.swift */,
+				9A13430A1EF7C53700A88717 /* LGBaseNotificationBanner.swift */,
+				9A13430E1EF914D700A88717 /* LGNotificationBanner.swift */,
+				9A1343151EFA7DC800A88717 /* LGStatusBarNotificationBanner.swift */,
+			);
+			name = LGNotificationBanner;
+			sourceTree = "<group>";
+		};
+		D2A02302938CC363DF08002D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				961A16BDDD3E20817988B21E /* Pods-NotificationBanner_Demo.debug.xcconfig */,
+				3E7E9BC295C8199C961365D1 /* Pods-NotificationBanner_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAADBFA80F9D372BE0E40D56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827B91FCFED94E258EBE20A1 /* Pods_NotificationBanner_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A1342C71EF37D9900A88717 /* Build configuration list for PBXNativeTarget "NotificationBanner_Demo" */;
 			buildPhases = (
+				F1E44606F5CE3D4DB136653D /* [CP] Check Pods Manifest.lock */,
 				9A1342B11EF37D9700A88717 /* Sources */,
 				9A1342B21EF37D9700A88717 /* Frameworks */,
 				9A1342B31EF37D9700A88717 /* Resources */,
+				83D4846EC53565FA7206ACE3 /* [CP] Embed Pods Frameworks */,
+				3471FB65C1341E4D1769478E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +202,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3471FB65C1341E4D1769478E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationBanner_Demo/Pods-NotificationBanner_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D4846EC53565FA7206ACE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationBanner_Demo/Pods-NotificationBanner_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E44606F5CE3D4DB136653D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A1342B11EF37D9700A88717 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A1342BB1EF37D9700A88717 /* ViewController.swift in Sources */,
 				9A1342B91EF37D9700A88717 /* AppDelegate.swift in Sources */,
+				9A1343141EFA7B9C00A88717 /* NorthCarolinaBannerView.swift in Sources */,
+				9A1342CF1EF383D500A88717 /* ExampleViewController.swift in Sources */,
+				9A1342E91EF3DCFE00A88717 /* LGNotificationBannerStyle.swift in Sources */,
+				9A1343181EFA806800A88717 /* LGBannerHapticGenerator.swift in Sources */,
+				9A1342DF1EF3D2E500A88717 /* ExampleModel.swift in Sources */,
+				9A1343161EFA7DC800A88717 /* LGStatusBarNotificationBanner.swift in Sources */,
+				9A13430B1EF7C53700A88717 /* LGBaseNotificationBanner.swift in Sources */,
+				9A1342EB1EF77A6800A88717 /* ExampleTableViewCell.swift in Sources */,
+				9A13430D1EF7C9EE00A88717 /* ExampleCustomColors.swift in Sources */,
+				9A1343111EFA069600A88717 /* LGNotificationBannerQueue.swift in Sources */,
+				9A13430F1EF914D700A88717 /* LGNotificationBanner.swift in Sources */,
+				9A1342E71EF3DCEA00A88717 /* LGNotificationBannerColors.swift in Sources */,
+				9A1342D11EF383DF00A88717 /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -260,6 +391,7 @@
 		};
 		9A1342C81EF37D9900A88717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961A16BDDD3E20817988B21E /* Pods-NotificationBanner_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotificationBanner_Demo/Info.plist;
@@ -272,6 +404,7 @@
 		};
 		9A1342C91EF37D9900A88717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7E9BC295C8199C961365D1 /* Pods-NotificationBanner_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotificationBanner_Demo/Info.plist;
@@ -301,6 +434,7 @@
 				9A1342C91EF37D9900A88717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
